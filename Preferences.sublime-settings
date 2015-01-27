@@ -1,0 +1,16 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Solarized (light).tmTheme",
+	"enable_tab_scrolling": false,
+	"fold_buttons": false,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"show_full_path": true,
+	"theme": "Sodarized Light 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
+}
