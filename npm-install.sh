@@ -1,7 +1,7 @@
 #!/bin/sh
 packages=(
 coffee-script
-jslint
+eslint
 csslint
 )
 echo "Installing npm packages required for sublime plugins.."
