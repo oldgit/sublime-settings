@@ -10,7 +10,7 @@ I don't want to manually install each plugin in turn once I've installed a new S
 ### Steps to load settings and list of plugins
 
 1. Install Sublime Text 3 with [brew cask](https://github.com/caskroom/homebrew-cask):
-`brew cask install sublime-text3 `
+`brew cask install sublime-text`
 
 2. Open Sublime Text 3
 
@@ -18,21 +18,17 @@ I don't want to manually install each plugin in turn once I've installed a new S
 
 4. Close Sublime Text 3
 
-5. In your home directory, git clone this project: `git clone https://github.com/oldgit/sublime-settings.git`
+5. In your home directory, git clone this project:
+`git clone https://github.com/oldgit/sublime-settings.git`
 
 6. In sublime-settings, run *npm-install.sh* to install npm packages required by plugins
-
-  `cd ~/sublime-settings`
-
-  `./npm-install.sh`
+`cd ~/sublime-settings`
+`./npm-install.sh`
 
 7. Copy the settings & themes from the git project to the Sublime Text 3 User directory
-
-  `cd ~/sublime-settings`
-
-  `cp *.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
-
-  `cp *.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+`cd ~/sublime-settings`
+`cp *.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+`cp *.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
 8. Open Sublime Text 3, all settings and plugins should be set
 
@@ -41,15 +37,9 @@ I don't want to manually install each plugin in turn once I've installed a new S
 If you modify settings and add new plugins, then:
 
 * `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
-
 * `cp *.sublime-settings ~/sublime-settings`
-
 * `cd ~/sublime-settings`
-
 *  Edit *npm-install.sh* if any extra npm packages are required
-
 * `git add .`
-
 * `git commit -m 'updated settings, added plugin ...'`
-
 * `git push`
